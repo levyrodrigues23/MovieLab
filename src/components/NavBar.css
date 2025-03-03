@@ -22,12 +22,13 @@
     border-radius: 8px;
     border: none;
     text-align: center;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.2s ease;
   
 }
 
-#navbar input:hover{
-   opacity: 0.4;
+#navbar input:focus{
+   opacity: 0.7;
+   outline: none;
 }
 
 #navbar button{
@@ -46,4 +47,6 @@
 #navbar button:hover{
    background-color: transparent;
    color: #f7d354;
+   
+
 }
