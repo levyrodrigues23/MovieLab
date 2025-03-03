@@ -58,3 +58,16 @@
   background-color: transparent;
   color: #f7d354;
 }
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .movies-container div {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .movies-container div {
+    width: 100%;
+  }
+}

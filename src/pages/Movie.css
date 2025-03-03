@@ -49,10 +49,18 @@
   gap: 0.5rem;
 }
 
-.description{
+.description {
   padding-bottom: 10rem;
 }
 
-.description p{
+.description p {
   line-height: 1.3rem;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .movie-page {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
 }
